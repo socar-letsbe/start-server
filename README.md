@@ -5,7 +5,6 @@
 
 
 # StartServer
-
 Spring Guide라인을 따릅니다.
 
  [웹 레이어 테스트](https://spring.io/guides/gs/testing-web/)

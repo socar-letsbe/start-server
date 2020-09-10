@@ -22,9 +22,7 @@ class WebMockTest(
     @Test
     @Throws(Exception::class)
     internal fun `greetingShouldReturnMessageFromService`() {
-//        Mockito.`when`(greetingService.greet()).thenReturn("Hello, Greeting")
         var result = greetingService.greet()
-
         assertThat(result).isNotNull()
         assertThat(result).isEqualTo("Hello, Greeting")
     }
